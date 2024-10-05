@@ -114,7 +114,7 @@ function onClickPending(e) {
             if (item.classList.contains("hide")) {
                 item.classList.remove("hide")
             } item.classList.add("hide");
-        })
+        });
     })
     e.classList.add("selected-status");
 }

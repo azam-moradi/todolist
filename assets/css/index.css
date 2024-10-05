@@ -60,13 +60,18 @@ video{
     box-shadow: inset 0 0 20px 5px rgba(var(--dark-gray-rgba), .3);
     transition: all .3s;
     overflow: hidden;
-    transform: scale(.9);
+    background-image: url('../images/daybg.PNG');
+    background-position: center center;
+    background-size: cover;
+    transform: scale(.8);
 }
 
 .mode2 {
     background-color: var(--blue-color);
     outline: 5px solid var(--dark-gray);
     box-shadow: inset 0 0 20px 5px rgba(var(--dark-gray-rgba), .8);
+    background-image: url('../images/nightbg.PNG');
+
 }
 
 #mode-video2{
